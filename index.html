@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>iLearning</title>
+</head>
+
+<body>
+    <nav class="navbar background h-nav-resp">
+        <ul class="left-nav v-class-resp">
+            <div class="logo"><img src="images/logo.jpg" alt="logo"></div>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="right-nav v-class-resp">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <section class="background first-section">
+        <div class="main-box">
+            <div class="first-half">
+                <p class="text-big">Front-End Developer Roadmap</p>
+                <p class="text-small">Starting with web development can be overwhelming. this front-end developer
+                    roadmap will guide you to start with it in the proper way. We will cover the most important building
+                    blocks of the web</p>
+                <div class="buttons">
+                    <button class="btn">Subscribe</button>
+                    <button class="btn">Watch Video</button>
+                </div>
+            </div>
+            <div class="second-half">
+                <img src="images/index.jpg" alt="logo">
+            </div>
+        </div>
+    </section>
+
+    <section class="second-section" id="service">
+        <div class="para">
+            <p class="section-tag text-big">HTML, CSS, JS</p>
+            <p class="section-subtag text-small"><strong>HTML</strong> stands for HyperText Markup Language. It is used
+                to design web
+                pages using a markup language. HTML is the combination of Hypertext and Markup language. Hypertext
+                defines the link between web pages. A markup language is used to define the text document within the tag
+                which defines the structure of web pages. <strong>CSS</strong> referred to as Cascading Style
+                Sheets,is a simply designed language intended to simplify the process of making web pages presentable.
+                CSS allows you to apply styles to web
+                pages. More importantly, CSS enables you to do this independent of the HTML that makes up each web page.
+                <strong>JavaScript</strong> is a lightweight, cross-platform, and
+                interpreted compiled programming language which is also known as the scripting language for webpages. It
+                is well-known for the development of web pages, many non-browser environments also use it. JavaScript
+                can be used for Client-side developments as well as Server-side developments.
+            </p>
+        </div>
+        <div class="thumbnail">
+            <img src="images/img1.jpg" alt="html image" class="imagefluid">
+        </div>
+    </section>
+
+    <section class="second-section left-section">
+        <div class="para">
+            <p class="section-tag text-big">CSS Framework</p>
+            <p class="section-subtag text-small"><strong>Bootstrap</strong> is a free and open-source tool collection for creating
+                responsive websites and web applications. It is the most popular HTML, CSS, and JavaScript framework for
+                developing responsive, mobile-first websites. It solves many problems which we had once, one of which is
+                the cross-browser compatibility issue. Nowadays, the websites are perfect for all the browsers (IE,
+                Firefox, and Chrome) and for all sizes of screens (Desktop, Tablets, Phablets, and Phones). All thanks
+                to Bootstrap developers -Mark Otto and Jacob Thornton of Twitter, though it was later declared to be an
+                open-source project. Bootstrap has evolved many versions and every time when we want to use this
+                framework we can select the version which we want to use.</p>
+        </div>
+        <div class="thumbnail">
+            <img src="images/img2.png" alt="bootstrap image" class="imagefluid">
+            <!--https://source.unsplash.com/400x400/?css-->
+        </div>
+    </section>
+
+    <section class="second-section">
+        <div class="para">
+            <p class="section-tag text-big">Javascript Framework</p>
+            <p class="section-subtag text-small"><strong>ReactJS</strong> is a declarative, efficient, and flexible JavaScript library
+                for building reusable UI components. It is an open-source, component-based front end library responsible
+                only for the view layer of the application. It was created by Jordan Walke, who was a software engineer
+                at Facebook. A ReactJS application is made up of multiple components,
+                each component responsible for outputting a small, reusable piece of HTML code. The components are the
+                heart of all React applications. These Components can be nested with other components to allow complex
+                applications to be built of simple building blocks. ReactJS uses virtual DOM based mechanism to fill
+                data in HTML DOM. The virtual DOM works fast as it only changes individual DOM elements instead of
+                reloading complete DOM every time.</p>
+        </div>
+        <div class="thumbnail">
+            <img src="images/img3.png" alt="react image" class="imagefluid">
+        </div>
+    </section>
+
+    <section class="third-section" id="contact">
+        <h1 class="contact">Contact Us</h1>
+        <div class="form">
+            <input class="form-input" type="text" name="name" id="name" placeholder="Enter Your Name">
+            <input class="form-input" type="email" name="email" id="email" placeholder="Enter Your Email">
+            <input class="form-input" type="phone" name="phone" id="email" placeholder="Enter Your Phone No">
+            <textarea class="form-input" name="text" id="text" cols="30" rows="10"
+                placeholder="Ellaborate Your Concern"></textarea>
+            <button class="btn btn-dark">Submit</button>
+        </div>
+    </section>
+
+    <footer class="background">
+        <p class="footer">
+            Copyright &copy; 2023 - www.iLearning.com - All rights reserved
+        </p>
+    </footer>
+
+    <script src="resp.js"></script>
+</body>
+
+</html>
